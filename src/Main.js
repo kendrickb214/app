@@ -1,7 +1,5 @@
-import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import MuiAppBar from '@mui/material/AppBar';
-
 
 export const drawerWidth = 240;
 
