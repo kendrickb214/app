@@ -41,5 +41,13 @@ app.on('activate', () => {
   }
 })
 
+const sqlite3 = require('sqlite3');
+const db = new sqlite3.Database('sql.db');
+// create a table and insert a row
+// db.serialize(() => {
+//   db.run("CREATE TABLE Users (name, lastName)");
+//   db.run("INSERT INTO Users VALUES (?, ?)", ['foo', 'bar']);
+// });
+
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.

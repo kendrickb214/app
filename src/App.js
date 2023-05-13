@@ -17,7 +17,7 @@ export default function App() {
   const [checkboxSelection, setCheckboxSelection] = React.useState(true);
 
   return (
-  <Container fixed>
+  <Container   maxWidth="md">
     <Button
       sx={{ mb: 2 }}
       onClick={() => setCheckboxSelection(!checkboxSelection)}
